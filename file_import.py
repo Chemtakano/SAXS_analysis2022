@@ -21,6 +21,10 @@ def read_I_t(file):
 def read_I_t_subsol(file):
     df=pd.read_csv(file, skiprows=1, names=['q', 'I'], usecols=[0,3])
     return df
+
+def read_I_abs(file):
+    df=pd.read_csv(file, skiprows=1, names=['q', 'I'], usecols=[0,4])
+    return df
     
 def discription():
     print(
