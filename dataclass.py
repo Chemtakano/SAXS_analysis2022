@@ -13,7 +13,7 @@ class SAXSdata:
         plt.xscale('log')
         plt.yscale('log')
         plt.xlabel('$q$ (nm$^{-1}$)')
-        plt.ylabel('I($q$) (cm$^{-1}$)')
+        plt.ylabel('I($q$)')
         plt.grid(ls='dotted', c='gray', lw=1)
 
     """def gunierplot(self, Rq=1):
